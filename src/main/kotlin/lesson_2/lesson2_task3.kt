@@ -1,7 +1,6 @@
 package org.example.lesson_2
 
 fun main() {
-
     val hourOfStart = 9
     val minutesOfStart = 39
     val travelTime = 457
@@ -14,5 +13,4 @@ fun main() {
     print(String.format("%02d",hourOfArrival))
     print(':')
     print(String.format("%02d",minutesOfArrival))
-
 }

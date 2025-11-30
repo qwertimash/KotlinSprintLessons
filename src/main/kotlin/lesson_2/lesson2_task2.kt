@@ -8,11 +8,11 @@ fun main() {
     val countOfTrainee = 50
     val traineeSalary = 20000
 
-    val workerksSalaryCost = countOfWorkers * workersSalary
-    println(workerksSalaryCost)
+    val workersSalaryCost = countOfWorkers * workersSalary
+    println(workersSalaryCost)
 
     val traineeSalaryCost = countOfTrainee * traineeSalary
-    val allSalaryCost = workerksSalaryCost + traineeSalaryCost
+    val allSalaryCost = workersSalaryCost + traineeSalaryCost
     println(allSalaryCost)
 
     val averageSalary = allSalaryCost / (countOfTrainee + countOfWorkers)

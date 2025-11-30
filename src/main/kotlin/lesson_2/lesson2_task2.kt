@@ -1,11 +1,10 @@
 package org.example.lesson_2
 
 fun main() {
-
     val countOfWorkers = 50
     val workersSalary = 30000
 
-    val countOfTrainee = 50
+    val countOfTrainee = 30
     val traineeSalary = 20000
 
     val workersSalaryCost = countOfWorkers * workersSalary
@@ -17,5 +16,4 @@ fun main() {
 
     val averageSalary = allSalaryCost / (countOfTrainee + countOfWorkers)
     println(averageSalary)
-
 }

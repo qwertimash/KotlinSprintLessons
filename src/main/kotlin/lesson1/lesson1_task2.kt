@@ -1,0 +1,20 @@
+package org.example.lesson1
+
+fun main() {
+
+    println("Решение задачи 1 для урока 1")
+
+    val numberOfOrders: Int = 75
+    val thanksForPurchase: String = "Спасибо за вашу покупку!"
+
+    println(numberOfOrders)
+    println(thanksForPurchase)
+
+    var countOfWorkers: Int = 2000
+//    println(countOfWorkers)
+
+    countOfWorkers = 1999
+    println(countOfWorkers)
+
+
+}

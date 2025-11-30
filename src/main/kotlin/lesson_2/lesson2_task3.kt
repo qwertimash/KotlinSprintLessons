@@ -10,7 +10,7 @@ fun main() {
 
     val hourOfArrival = totalArrivalMinutes / 60
     val minutesOfArrival = totalArrivalMinutes % 60
-    print(String.format("%02d",hourOfArrival))
+    print(String.format("%02d", hourOfArrival))
     print(':')
-    print(String.format("%02d",minutesOfArrival))
+    print(String.format("%02d", minutesOfArrival))
 }

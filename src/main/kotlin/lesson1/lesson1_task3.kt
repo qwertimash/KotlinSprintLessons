@@ -6,13 +6,13 @@ fun main() {
     var hour: Int = 9
     var minute: Int = 7
     println(year)
-    println(hour)
-    println(minute)
+    println(String.format("%02d",hour))
+    println(String.format("%02d",minute))
 
     hour = 10
     minute = 55
-    print(hour)
+    print(String.format("%02d",hour))
     print(":")
-    println(minute)
+    println(String.format("%02d",minute))
 
 }

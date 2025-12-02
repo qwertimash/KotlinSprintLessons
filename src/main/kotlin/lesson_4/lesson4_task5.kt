@@ -12,5 +12,5 @@ fun main() {
     val countOfProvisions = 123
     val weatherConditions = true
 
-    println("Корабль может приступить к долгосрочному плаванию: ${(!presenceOfDamage && (currentCrew in MIN_CREW_COUNTS ..MAX_CREW_COUNTS) && (countOfProvisions > MIN_PROVISIONS_COUNTS)) || ((currentCrew == RECOMMENDED_CREW_COUNTS) && weatherConditions && (countOfProvisions >= MIN_PROVISIONS_COUNTS))}")
+    println("Корабль может приступить к долгосрочному плаванию: ${(!presenceOfDamage && (currentCrew in MIN_CREW_COUNTS..MAX_CREW_COUNTS) && (countOfProvisions > MIN_PROVISIONS_COUNTS)) || ((currentCrew == RECOMMENDED_CREW_COUNTS) && weatherConditions && (countOfProvisions >= MIN_PROVISIONS_COUNTS))}")
 }

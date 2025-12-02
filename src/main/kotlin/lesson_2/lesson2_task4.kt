@@ -1,7 +1,5 @@
 package org.example.lesson_2
 
-const val FULL_PERCENT = 100.0
-
 fun main() {
     val crystalOre = 7
     val ironOre = 11

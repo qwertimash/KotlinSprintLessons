@@ -2,7 +2,7 @@ package org.example.lesson_2
 
 import kotlin.math.pow
 
-const val FULL_PERCENT = 100
+const val FULL_PERCENT = 100.0
 
 fun main() {
     val startValue = 70_000.0
